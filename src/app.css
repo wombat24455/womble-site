@@ -1,0 +1,29 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-image {
+  height: 6em;
+  padding: 1.5em;
+  border-radius: 50%;
+}
+.profile-image:hover {
+  /* filter: drop-shadow(0 0 2em #646cffaa); */
+  filter: drop-shadow(0 0 1em #d69a86);
+  transition-duration: 0.3s;
+}/*
+.logo.preact:hover {
+  filter: drop-shadow(0 0 2em #a2503d);
+}
+
+.card {
+  padding: 2em;
+}
+ 
+.read-the-docs {
+  color: #888;
+}
+*/
