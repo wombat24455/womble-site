@@ -6,7 +6,7 @@ export function App() {
   const [count, setCount] = useState(0)
 
   const avatar = 'https://github.com/wombat24455.png?size=100';
-  const bio = '';
+  const bio = 'bio stuff goes here';
 
   return (
     <>
