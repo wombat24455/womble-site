@@ -15,7 +15,8 @@
   /* filter: drop-shadow(0 0 2em #646cffaa); */
   filter: drop-shadow(0 0 1em #d69a86);
   transition-duration: 0.3s;
-}/*
+}
+/*
 .logo.preact:hover {
   filter: drop-shadow(0 0 2em #a2503d);
 }
