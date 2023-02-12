@@ -3,12 +3,45 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #242424;
+  border-radius: 2.5%;
+}
+
+div.bg {
+  background: url();
+}
+
+/* uncomment to debug 
+* {
+  box-sizing: border-box;
+  outline: 1px solid red !important;
+}*/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 .profile-image {
   height: 6em;
   width: 6em;
-  padding: 1.5em;
   border-radius: 50%;
 }
 .profile-image:hover {
@@ -16,16 +49,7 @@
   filter: drop-shadow(0 0 1em #d69a86);
   transition-duration: 0.3s;
 }
-/*
-.logo.preact:hover {
-  filter: drop-shadow(0 0 2em #a2503d);
-}
 
 .card {
   padding: 2em;
 }
- 
-.read-the-docs {
-  color: #888;
-}
-*/

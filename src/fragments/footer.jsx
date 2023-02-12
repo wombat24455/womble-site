@@ -5,7 +5,7 @@ export function Footer() {
     <Fragment>
       <div>
         <p class="small-text">
-          &copy; {new Date().getFullYear()} wombat24455. All rights reserved.
+          &copy; {new Date().getFullYear()} <a href="https://www.womble.xyz">wombat24455</a>
         </p>
       </div>
     </Fragment>
