@@ -27,12 +27,18 @@ main {
 
 footer {
     text-align: center;
-    text-decoration: none;
     font-size: small;
     padding: 5px;
     background: var(--footer-bg);
 }
 
-footer {
+footer a {
     text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
 }
