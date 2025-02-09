@@ -1,0 +1,38 @@
+:root {
+    --main-bg: #F0F0F0;
+    --header-bg: linear-gradient(blue, pink);
+    --footer-bg: #CECECE;
+}
+
+header {
+    text-align: center;
+    background: var(--header-bg)
+}
+
+body {
+    padding: 0px; 
+    margin: 0px;
+    background-color: var(--main-bg);
+}
+
+h2 {
+    padding-bottom: 5px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+main {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+    padding: 5px;
+    background: var(--footer-bg);
+}
+
+footer {
+    text-decoration: none;
+}
