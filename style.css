@@ -26,11 +26,15 @@ header {
     background: var(--header-bg)
 }
 
+p.test {
+    text-align: center;
+}
+
 body {
     padding: 0px; 
     margin: 0px;
     background-color: var(--main-bg);
-    cursor: url("media/bellpepper.webp"), auto;
+    /*cursor: url("media/bellpepper.webp"), auto;*/
 }
 
 h2 {
@@ -45,6 +49,7 @@ main {
 
 footer {
     text-align: center;
+    color: #636363;
     font-size: small;
     padding: 5px;
     background: var(--footer-bg);
