@@ -1,0 +1,107 @@
+:root {
+    --main-bg: #F0F0F0;
+    --header-bg: linear-gradient(blue, pink);
+    --footer-bg: #CECECE;
+}
+
+.nav-bread ol {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.bread-crumbs {
+    display: inline-block;    
+}
+
+.bread-crumbs a::after {
+    display: inline-block;
+    color: #000;
+    content: '/';
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+header {
+    text-align: center;
+    background: var(--header-bg)
+}
+
+p.test {
+    text-align: center;
+}
+
+body {
+    padding: 0px; 
+    margin: 0px;
+    background-color: var(--main-bg);
+    /*cursor: url("media/bellpepper.webp"), auto;*/
+}
+
+h2 {
+    padding-bottom: 5px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+main {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    color: #636363;
+    font-size: small;
+    padding: 5px;
+    background: var(--footer-bg);
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #0077BA;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+table a {
+    padding-right: 10px;
+}
+
+div.notice {
+    border: 7.5px dashed #000;
+    background-color: #ff0;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 83%;
+
+}
+
+span.html-colour {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #F26529;
+}
+
+span.css-colour {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #0077BA;
+}
+
+span.js-colour {
+    color: #000 ;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #F7E01D;
+}
